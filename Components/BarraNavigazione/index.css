@@ -1,0 +1,10 @@
+.barra-ricerca {
+  font-size: 1rem;
+  font-weight: 400;
+  min-width: 339px;
+  min-height: 24px;
+  padding: 24px 8px 16px 16px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 5px;
+}
