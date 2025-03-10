@@ -1,0 +1,30 @@
+.navbar {
+  padding-top: 30px;
+}
+
+.netflix-logo {
+  width: 9.25rem;
+  height: 2.5rem;
+  color: rgb(229, 9, 20);
+  fill: currentColor;
+  display: block;
+  position: absolute;
+  left: 120px;
+}
+.elementi-a-destra {
+  position: absolute;
+  right: 120px;
+}
+
+.language {
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: 1px solid white;
+  color: white;
+  min-width: 124px;
+  min-height: 32px;
+}
+
+option {
+  color: black;
+}
