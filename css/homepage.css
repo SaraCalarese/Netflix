@@ -1,0 +1,54 @@
+.sfondo {
+  /*position: relative;*/
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web/IT-it-20250303-TRIFECTA-perspective_08bb67f4-c730-4027-a285-bbe7fc9e3403_large.jpg"); /* Inserisci il percorso dell'immagine */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.603); /* Opacità regolabile */
+}
+
+.testo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute; /* Usa absolute per centrarlo */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Lo sposta esattamente al centro */
+  z-index: 1;
+  color: white;
+  text-align: center;
+  max-width: 650px; /* Limita la larghezza per non allargare troppo il testo */
+  padding: 20px; /* Ridotto per evitare troppo spazio */
+}
+
+.testo h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.testo h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.testo h3 {
+  font-size: 20px;
+}
+.testo h4 {
+  font-size: 15px;
+}
+
+.input-button {
+  display: flex;
+  gap: 10px;
+}

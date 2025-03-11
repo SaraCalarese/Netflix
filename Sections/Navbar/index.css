@@ -1,9 +1,11 @@
 .navbar {
   padding-top: 30px;
   display: flex;
-  justify-content: space-between;
+  position: relative;
   padding-left: 120px;
   padding-right: 120px;
+  z-index: 1;
+  gap: 873px;
 }
 
 .netflix-logo {
@@ -12,12 +14,6 @@
   color: rgb(229, 9, 20);
   fill: currentColor;
   display: block;
-  /*position: absolute;
-  left: 120px;*/
-}
-.elementi-a-destra {
-  /*position: absolute;
-  right: 120px;*/
 }
 
 .language {
