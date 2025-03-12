@@ -1,8 +1,11 @@
 .carousel-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   width: 1100px; /* Larghezza delle 5 card visibili + bottoni */
+  position: absolute;
+  left: 15%;
 }
 
 .sezione-card-container {
