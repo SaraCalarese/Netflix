@@ -1,0 +1,21 @@
+.card-container {
+  min-height: 276px;
+  width: 197px;
+  border-radius: 10px;
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABURemtLKfuKroLPdtMiKVLMc4jQRCFzTa0sFxjXIYeR75oW05FRg_zDeRR6ciFbfN8nmgNvbbpmYSaRwxTpFw7F70LclOYP0Vwqt-aMSiDrzZDHRZzVhunPwynWXqWUe7FNj.webp?r=47e");
+  transition: transform 0.3s ease, filter 0.3s ease;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.number {
+  font-weight: bold;
+  font-size: 100px;
+  margin-left: -15px;
+  -webkit-text-stroke: 0.25rem rgb(255, 255, 255);
+}

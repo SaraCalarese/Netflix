@@ -1,0 +1,51 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 1100px; /* Larghezza delle 5 card visibili + bottoni */
+}
+
+.sezione-card-container {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  border-radius: 10px;
+  width: 1000px; /* 5 card visibili per volta (197px * 5 + gap) */
+  overflow: hidden;
+  white-space: nowrap; /* Evita il wrapping delle card */
+}
+.card-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out; /* Effetto scorrimento */
+  gap: 30px;
+}
+
+.squid-game {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTsIHqmKvuiJaunFg-3M7eRlEBPik8Un-eqTK-od9x48LzeGITagPm82bIopTRvyhIEMehQNdXN2qfj0AVpDTMhftqYStaCieJdbO-jfhSkFUVGBs9eYkpkjdzOj_UCKZi53.webp?r=06c");
+}
+
+.card-3 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABeXE2XxIe0bqJjgux60Hfef_kL5DTAvvs0H9YykrzYDHHQTo0NmEsScEFjSjkhLWdYDpnpPkT5kexHP4NjN036aeUQIMvyITXhn9Dd0NBF7PJu2sZGcJdOctb1XEfVpfLouF.webp?r=708");
+}
+.card-4 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVOClLx14Np_QmrZQhvw1mHIVc04Xu9GBtscGeCukPhkXlxs5zwoh6pZT2bGt0OGNMQiPvug7kHzq2Fi1TfOowuWFRl-yNxNoHuf0iROhjIXTRMgpf7bq_mMTdJfRrPP4zB2.webp?r=018");
+}
+.card-5 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABavQmAg_jAE44WP1bN7gRGPYh72wThBDEYx3rZ1lLkcvl8BSF854E-vjkCI-j-UCaau4mtcHOcd2YCfQRzUGWU9fGKULcsOjO_3FU3DUf9J1ekNXsUHHa0W44SndSN28mCeP.webp?r=52c");
+}
+.card-6 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABaO37olFo3G4jmZKNLl5NnEKjYm12i0VZhx8rAm-Nz2NQv41Rod-VLgPXyU3l_JSP7Xokk8_Sh1JeWc3VaEfE9JGymKI_2k5ku71Rv0-eUG1ANBwVc23QeLa6l7mIO9iOsXL.webp?r=9d7");
+}
+.card-7 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcfSw2rQ_uKtWbYuzOM5WPpDRmh9RkxBAt8-kQB9UE5NZysBn4J44TtPmaw-ufFbRlmSwHowc5AwhEqTDkT6AgA21YogA0R-wm4.webp?r=038");
+}
+.card-8 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdJM7qMZyfuJzJsnUHME7coh2NyQZfmhIIPwAf-MnYo4N6406bYY23v4w8fwbEPa1-PFxvmjLm30iF6nyt8I17WeVYaHu2L2UNIR5UQCYIP2PTWiwiwXnI1_eI04LLbSQHCA.webp?r=8bf");
+}
+.card-9 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbKRwg4QUJLDc9wPsszm1h1X9g8BdxEVqfMywW9qOlleQ-3hkoFV52wbu5F_r8v6-I2dvvZdTJWodINaIyLJXzZUOsUrV91OB7s.webp?r=116");
+}
+.card-10 {
+  background-image: url("https://occ-0-3902-2582.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABf5VvyDNQ1viSmDc-klFRYiekldvV5jOWrqGnChGbI1O841-kZC3vwyGN5JfG05hdanMLf3Qebro1MYAHFIxjLzOtO8IhfhBzLc.webp?r=2b9");
+}
