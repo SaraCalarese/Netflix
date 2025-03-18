@@ -53,7 +53,8 @@
   gap: 10px;
 }
 
-.titoli {
+.titoli,
+.motivi-in-piu-per-abbonarsi {
   color: white;
   font-size: 25px;
   padding-left: 200px;

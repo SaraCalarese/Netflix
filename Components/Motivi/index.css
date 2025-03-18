@@ -1,0 +1,23 @@
+.goditi {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+
+.guarda {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.tv-container {
+  min-height: 319px;
+  max-width: 294px;
+  background: linear-gradient(180deg, #192247 0%, #210e17 96.86%);
+  border-radius: 20px;
+}
+
+.svg-televisione {
+  float: right;
+  padding-top: 60px;
+}
