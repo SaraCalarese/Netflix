@@ -71,3 +71,24 @@
   justify-content: center;
   gap: 10px;
 }
+
+.testo-in-basso {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.barra-ricerca-in-basso {
+  min-width: 700px;
+  font-size: 1rem;
+  font-weight: 400;
+
+  min-height: 24px;
+  padding: 24px 8px 16px 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.603);
+  border-radius: 5px;
+}
