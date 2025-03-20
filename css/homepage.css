@@ -54,11 +54,20 @@
 }
 
 .titoli,
-.motivi-in-piu-per-abbonarsi {
+.motivi-in-piu-per-abbonarsi,
+.domande {
   color: white;
   font-size: 25px;
   padding-left: 200px;
   padding-top: 100px;
   padding-bottom: 30px;
   font-weight: bold;
+}
+
+.domande-frequenti-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

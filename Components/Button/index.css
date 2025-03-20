@@ -81,12 +81,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
   color: #ffff;
   background-color: rgb(45, 45, 45);
-  max-width: 835px;
-  max-height: 84px;
+  min-width: 75%;
+  min-height: 90px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.domande-frequenti:hover {
+  background-color: rgb(128, 128, 128);
 }
